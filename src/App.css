@@ -1,13 +1,14 @@
-:root{
+:root {
     --color-terracota: #D6C0AE;
     --color-brown: #723D2D;
 }
-.bg-letter{
+
+.bg-letter {
     position: relative;
     background-color: var(--color-terracota);
 }
 
-.bg-letter{
+.bg-letter {
     content: '';
     position: absolute;
     top: 0;
@@ -17,18 +18,25 @@
     background-image: url(../public/assets/images/bg-letter.png);
 }
 
-.btnBuy{
+.btnBuy {
     background-color: var(--color-brown);
     border-color: var(--color-brown);
     color: white;
 }
 
-.button{
+.button {
     padding: 0.5em 1.5em;
     text-decoration: none;
     border-radius: 0;
 }
-.button:hover{
+
+.button:hover {
     cursor: pointer;
     color: currentColor;
+}
+
+@media screen and (min-width: 768px) {
+    .h-md-100 {
+        height: 100%;
+    }
 }
