@@ -1,21 +1,18 @@
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons+Outlined');
+
 :root {
     --color-terracota: #D6C0AE;
     --color-brown: #723D2D;
 }
 
-.bg-letter {
-    position: relative;
-    background-color: var(--color-terracota);
+body{
+    background-color: var(--color-terracota) !important;
 }
 
 .bg-letter {
-    content: '';
-    position: absolute;
-    top: 0;
-    right: 0;
-    left: 0;
-    z-index: -1;
-    background-image: url(../public/assets/images/bg-letter.png);
+    background-size: cover;
+    background-image: url(http://riviera.lacasesoriasinmobiliarias.com.co/assets/images/bg-letter.png);
 }
 
 .btnBuy {
